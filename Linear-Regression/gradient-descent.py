@@ -8,7 +8,7 @@ y = 4 + 3 * X + np.random.randn(100, 1)
 # Add bias term
 X_b = np.c_[np.ones((100, 1)), X]
 
-# Gradient Descent Setup
+# Gradient Descent 
 eta = 0.1
 n_iterations = 1000
 m = 100
